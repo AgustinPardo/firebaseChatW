@@ -1,3 +1,3 @@
 # firebaseChatW
 
-https://chat-3876d.web.app/
+https://chat-3876d.firebaseapp.com/
