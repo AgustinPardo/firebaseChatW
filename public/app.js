@@ -42,7 +42,7 @@ const contenidoChat = (user) =>{
 
         firebase.firestore().collection('chatcol').add({
             texto:inputChat.value,
-            uid:user.uid,
+            uid:user.displayName,
             fecha: Date.now()
         })
             .then(res => {console.log('mensaje guardado')})
@@ -56,7 +56,7 @@ const contenidoChat = (user) =>{
             console.log(query)
             contenidoProtegido.innerHTML = ''
             query.forEach(doc => {
-                console.log(doc.data())
+                console.log(doc)
                 if(doc.data().uid === user.uid){
                     contenidoProtegido.innerHTML += `
                     <div class="d-flex justify-content-end">
