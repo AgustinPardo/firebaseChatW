@@ -2,4 +2,4 @@
 
 https://chat-3876d.firebaseapp.com/
 
-## Firebase + Firestore  + Vanilla JavaScript
+## Firebase + Firestore + bootstrap4 + Vanilla JavaScript
